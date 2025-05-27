@@ -22,22 +22,18 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    # Restore para ambos os projetos
     - name: Restore dependencies
-      run: dotnet restore PersistenciaService.sln
+      run: dotnet restore PersistenciaService/PersistenciaService.csproj
 
-    # Formatação só no projeto PersistenciaService
     - name: Run code format check
       run: dotnet format --verify-no-changes PersistenciaService/PersistenciaService.csproj
       continue-on-error: true
 
-    # Build da solução para garantir testes compilados
-    - name: Build solution
-      run: dotnet build PersistenciaService.sln --configuration Release --no-restore
+    - name: Build project
+      run: dotnet build PersistenciaService/PersistenciaService.csproj --no-restore --configuration Release
 
-    # Executa os testes (sem --no-build para compilar testes se necessário)
     - name: Run tests
-      run: dotnet test PersistenciaService.Tests/PersistenciaService.Tests.csproj --verbosity normal
+      run: dotnet test PersistenciaService.Tests/PersistenciaService.Tests.csproj --no-build --verbosity normal
 
     - name: Prepare upload-artifact
       uses: actions/upload-artifact@v4
