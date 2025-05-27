@@ -22,18 +22,21 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
+    # Restaurar dependências para toda a solução ou projetos (ajuste se tiver .sln)
     - name: Restore dependencies
-      run: dotnet restore CadastroService/CadastroService.csproj
+      run: dotnet restore CadastroService.sln
 
     - name: Run code format check
       run: dotnet format --verify-no-changes CadastroService/CadastroService.csproj
       continue-on-error: true
 
-    - name: Build project
-      run: dotnet build CadastroService/CadastroService.csproj --no-restore --configuration Release
+    # Build da solução para garantir testes compilados
+    - name: Build solution
+      run: dotnet build CadastroService.sln --configuration Release --no-restore
 
+    # Executa os testes sem --no-build para garantir que compilou tudo antes
     - name: Run tests
-      run: dotnet test "CadastroService.Tests/CadastroService.Tests.csproj" --no-build --verbosity normal
+      run: dotnet test CadastroService.Tests/CadastroService.Tests.csproj --verbosity normal
 
     - name: Prepare upload-artifact
       uses: actions/upload-artifact@v4
