@@ -12,6 +12,7 @@ on:
 jobs:
   e2e-tests:
     runs-on: ubuntu-latest
+
     services:
       sqlserver:
         image: mcr.microsoft.com/mssql/server:2022-latest
@@ -21,9 +22,9 @@ jobs:
         ports:
           - 1433:1433
         options: >-
-          --health-cmd "exit 0" 
-          --health-interval 10s 
-          --health-timeout 5s 
+          --health-cmd "exit 0"
+          --health-interval 10s
+          --health-timeout 5s
           --health-retries 5
 
     steps:
@@ -35,34 +36,36 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    - name: Restore dependencies PersistenciaService
+    - name: Restore dependencies - PersistenciaService
       run: dotnet restore PersistenciaService/PersistenciaService.csproj
 
-    - name: Restore dependencies CadastroService
+    - name: Restore dependencies - CadastroService
       run: dotnet restore CadastroService/CadastroService.csproj
 
-    - name: Build PersistenciaService
+    - name: Build - PersistenciaService
       run: dotnet build PersistenciaService/PersistenciaService.csproj --configuration Release
 
-    - name: Build CadastroService
+    - name: Build - CadastroService
       run: dotnet build CadastroService/CadastroService.csproj --configuration Release
 
     - name: Run PersistenciaService API
       run: dotnet run --project PersistenciaService/PersistenciaService.csproj &
       env:
         ConnectionStrings__DefaultConnection: "Server=localhost,1433;Database=PersistenciaDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
-    - name: Wait PersistenciaService start
+
+    - name: Wait for PersistenciaService to start
       run: sleep 15
 
     - name: Run CadastroService API
       run: dotnet run --project CadastroService/CadastroService.csproj &
       env:
-        PERSISTENCIASERVICE__BASEURL: "http://localhost:5006"  # Ajuste se usar config para endereço do PersistenciaService
-    - name: Wait CadastroService start
+        PERSISTENCIASERVICE__BASEURL: "http://localhost:5006"
+
+    - name: Wait for CadastroService to start
       run: sleep 15
 
-    - name: Run integration tests (end-to-end)
-      run: dotnet test CadastroService/CadastroService.IntegrationTests/CadastroService.IntegrationTests.csproj --no-build
+    - name: Run integration tests (End-to-End)
+      run: dotnet test CadastroService/CadastroService.IntegrationTests/CadastroService.IntegrationTests.csproj --no-build --verbosity normal
 
     - name: Stop APIs
       run: |

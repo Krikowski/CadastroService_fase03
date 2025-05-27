@@ -35,15 +35,17 @@ jobs:
     - name: Run tests
       run: dotnet test PersistenciaService/PersistenciaService.Tests/PersistenciaService.Tests.csproj --no-build --verbosity normal
 
+    - name: Prepare upload-artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: noop
+        path: noop
+      continue-on-error: true
+
     - name: Publish build artifacts
       if: success()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: persistencia-service-build
         path: PersistenciaService/bin/Release/
-        
-    # Optional: build docker image
-    - name: Build Docker image
-      if: github.event_name != 'pull_request'
-      run: |
-        docker build -t persistenciaservice:latest PersistenciaService/
+

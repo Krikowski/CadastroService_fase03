@@ -35,14 +35,16 @@ jobs:
     - name: Run tests
       run: dotnet test CadastroService/CadastroService.Tests/CadastroService.Tests.csproj --no-build --verbosity normal
 
+    - name: Prepare upload-artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: noop
+        path: noop
+      continue-on-error: true
+
     - name: Publish build artifacts
       if: success()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: cadastro-service-build
         path: CadastroService/bin/Release/
-
-    - name: Build Docker image
-      if: github.event_name != 'pull_request'
-      run: |
-        docker build -t cadastroservice:latest CadastroService/
