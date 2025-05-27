@@ -337,3 +337,4 @@ C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\PersistenciaService\obj\Debug
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\PersistenciaService\obj\Debug\net8.0\PersistenciaService.pdb
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\PersistenciaService\obj\Debug\net8.0\PersistenciaService.genruntimeconfig.cache
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\PersistenciaService\obj\Debug\net8.0\ref\PersistenciaService.dll
+C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\PersistenciaService\obj\Debug\net8.0\PersistenciaService.sourcelink.json

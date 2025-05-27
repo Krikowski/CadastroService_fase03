@@ -2,7 +2,6 @@
 using CadastroService.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 
 namespace CadastroService.Controllers {
     [ApiController]
@@ -27,17 +26,16 @@ namespace CadastroService.Controllers {
         // READ - Listar todos
         [HttpGet]
         public async Task<IActionResult> GetAll() {
-            var contatos = await _contatoService.GetAllContatosAsync();
+            var contatos = await _persistenciaClient.ListarContatosAsync();
             return Ok(contatos);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id) {
-            var contato = await _contatoService.GetContatoByIdAsync(id);
+            var contato = await _persistenciaClient.ObterContatoAsync(id);
             if (contato == null) return NotFound();
             return Ok(contato);
         }
-
 
         // UPDATE
         [HttpPut("{id}")]

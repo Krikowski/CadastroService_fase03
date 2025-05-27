@@ -90,8 +90,7 @@
               "RelativeToolTip": "Migrations\\20250525222514_InitialCreate.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:51:02.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:51:02.848Z"
             },
             {
               "$type": "Document",
@@ -103,21 +102,19 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAABkAAAAAAAAAAAAowDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-27T00:50:12.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:50:12.668Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PersistenciaService",
+              "Title": "PersistenciaService.csproj",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\PersistenciaService.csproj",
               "RelativeDocumentMoniker": "PersistenciaService.csproj",
               "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\PersistenciaService.csproj",
               "RelativeToolTip": "PersistenciaService.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T00:49:56.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:49:56.848Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "Services\\ContatoService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:17:53.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T22:17:53.074Z"
             },
             {
               "$type": "Document",
@@ -142,8 +138,7 @@
               "RelativeToolTip": "Models\\Contato.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:17:02.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T22:17:02.596Z"
             },
             {
               "$type": "Document",
@@ -153,7 +148,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T22:16:10.311Z",
               "EditorCaption": ""
@@ -168,8 +163,7 @@
               "RelativeToolTip": "Controllers\\PersistenciaController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:16:33.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T22:16:33.053Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:51:15.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:51:15.447Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-27T00:49:48.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:49:48.367Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:17:29.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T22:17:29.839Z"
             },
             {
               "$type": "Document",

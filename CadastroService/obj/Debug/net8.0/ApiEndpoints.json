@@ -17,27 +17,17 @@
   },
   {
     "ContainingType": "CadastroService.Controllers.CadastroController",
-    "Method": "ListarContatos",
+    "Method": "GetAll",
     "RelativePath": "api/Cadastro",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[CadastroService.Models.ContatoDto, CadastroService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CadastroService.Controllers.CadastroController",
-    "Method": "ObterContato",
+    "Method": "GetById",
     "RelativePath": "api/Cadastro/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -49,17 +39,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "CadastroService.Models.ContatoDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CadastroService.Controllers.CadastroController",
