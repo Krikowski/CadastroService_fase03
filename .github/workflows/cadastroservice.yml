@@ -1,0 +1,48 @@
+name: CI - CadastroService
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore CadastroService/CadastroService.csproj
+
+    - name: Run code format check
+      run: dotnet format --verify-no-changes CadastroService/CadastroService.csproj
+      continue-on-error: true
+
+    - name: Build project
+      run: dotnet build CadastroService/CadastroService.csproj --no-restore --configuration Release
+
+    - name: Run tests
+      run: dotnet test CadastroService/CadastroService.Tests/CadastroService.Tests.csproj --no-build --verbosity normal
+
+    - name: Publish build artifacts
+      if: success()
+      uses: actions/upload-artifact@v3
+      with:
+        name: cadastro-service-build
+        path: CadastroService/bin/Release/
+
+    - name: Build Docker image
+      if: github.event_name != 'pull_request'
+      run: |
+        docker build -t cadastroservice:latest CadastroService/
