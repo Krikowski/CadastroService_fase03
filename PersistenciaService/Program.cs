@@ -10,10 +10,13 @@ namespace PersistenciaService {
             builder.Services.AddControllers();
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("DefaultConnection"),
+                    sqlServerOptions => sqlServerOptions.EnableRetryOnFailure()
+                )
+            );
 
             builder.Services.AddScoped<ContatoService>();
-
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -26,6 +29,11 @@ namespace PersistenciaService {
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
+
+            using (var scope = app.Services.CreateScope()) {
+                var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                db.Database.Migrate();
+            }
 
             app.Run();
         }

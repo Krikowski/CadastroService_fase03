@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\controllers\\persistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:controllers\\persistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\controllers\\persistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:controllers\\persistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\services\\contatoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:migrations\\20250525222514_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\persistenciaservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:persistenciaservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\persistenciaservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D15AACE6-D082-45CC-83B6-9770F39F1170}|PersistenciaService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,32 +81,20 @@
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowDMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-27T00:50:12.668Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PersistenciaService.csproj",
-              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\PersistenciaService.csproj",
-              "RelativeDocumentMoniker": "PersistenciaService.csproj",
-              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\PersistenciaService.csproj",
-              "RelativeToolTip": "PersistenciaService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T00:49:56.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ContatoService.cs",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Services\\ContatoService.cs",
               "RelativeDocumentMoniker": "Services\\ContatoService.cs",
@@ -118,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Contato.cs",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Models\\Contato.cs",
               "RelativeDocumentMoniker": "Models\\Contato.cs",
@@ -130,29 +118,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwBoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T22:16:10.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PersistenciaController.cs",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Controllers\\PersistenciaController.cs",
               "RelativeDocumentMoniker": "Controllers\\PersistenciaController.cs",
               "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Controllers\\PersistenciaController.cs",
               "RelativeToolTip": "Controllers\\PersistenciaController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:16:33.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T22:16:33.053Z"
             },
             {
               "$type": "Document",
@@ -162,14 +149,65 @@
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T22:17:29.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-25T22:21:53.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T00:50:12.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-27T00:49:48.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PersistenciaService.csproj",
+              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\PersistenciaService.csproj",
+              "RelativeDocumentMoniker": "PersistenciaService.csproj",
+              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\PersistenciaService.csproj",
+              "RelativeToolTip": "PersistenciaService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T00:49:56.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "20250525222514_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Migrations\\20250525222514_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250525222514_InitialCreate.cs",
@@ -181,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -190,30 +228,6 @@
               "ViewState": "AgIAAB0AAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T00:51:15.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-27T00:49:48.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\PersistenciaService\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T22:21:53.124Z"
             }
           ]
         }

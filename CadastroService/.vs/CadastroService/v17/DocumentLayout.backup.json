@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\cadastroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\cadastroservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\cadastroservice\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|solutionrelative:controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\cadastroservice\\cadastroservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|solutionrelative:cadastroservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\cadastroservice\\models\\contatodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|solutionrelative:models\\contatodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\cadastroservice\\services\\persistenciaserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|solutionrelative:services\\persistenciaserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54CB2CA8-FF44-40E7-9998-3282E3EC62EE}|CadastroService.csproj|c:\\users\\debor\\fiap\\fase_03\\cadastroservice_fase03\\cadastroservice\\services\\ipersistenciaserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 130,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,46 +49,33 @@
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CadastroService.csproj",
-              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\CadastroService.csproj",
-              "RelativeDocumentMoniker": "CadastroService.csproj",
-              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\CadastroService.csproj",
-              "RelativeToolTip": "CadastroService.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T00:40:53.15Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:09:55.143Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-28T21:05:20.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersistenciaServiceClient.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Services\\PersistenciaServiceClient.cs",
-              "RelativeDocumentMoniker": "Services\\PersistenciaServiceClient.cs",
-              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Services\\PersistenciaServiceClient.cs",
-              "RelativeToolTip": "Services\\PersistenciaServiceClient.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:09:47.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IPersistenciaServiceClient.cs",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Services\\IPersistenciaServiceClient.cs",
               "RelativeDocumentMoniker": "Services\\IPersistenciaServiceClient.cs",
@@ -112,28 +87,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContatoDto.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Models\\ContatoDto.cs",
-              "RelativeDocumentMoniker": "Models\\ContatoDto.cs",
-              "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Models\\ContatoDto.cs",
-              "RelativeToolTip": "Models\\ContatoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:09:05.518Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CadastroController.cs",
               "DocumentMoniker": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Controllers\\CadastroController.cs",
               "RelativeDocumentMoniker": "Controllers\\CadastroController.cs",
               "ToolTip": "C:\\Users\\debor\\FIAP\\FASE_03\\CadastroService_fase03\\CadastroService\\Controllers\\CadastroController.cs",
               "RelativeToolTip": "Controllers\\CadastroController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:08:27.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T22:08:27.468Z"
             }
           ]
         }

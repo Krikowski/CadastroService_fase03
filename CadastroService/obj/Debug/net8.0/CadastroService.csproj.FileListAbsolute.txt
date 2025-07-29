@@ -157,6 +157,7 @@ C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.csproj.CoreCompileInputs.cache
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.sourcelink.json
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\staticwebassets\msbuild.CadastroService.Microsoft.AspNetCore.StaticWebAssets.props
@@ -171,4 +172,3 @@ C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.pdb
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.genruntimeconfig.cache
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\ref\CadastroService.dll
-C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.sourcelink.json
