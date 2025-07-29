@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: persistencia-deployment
+  labels:
+    app: persistencia
+    tier: backend
+    version: v1
+  annotations:
+    maintainer: "debora.krikowski@fiap.com.br"
+    description: "Deployment do serviço de Persistência responsável por armazenar os dados no SQL Server"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: persistencia
+  template:
+    metadata:
+      labels:
+        app: persistencia
+        tier: backend
+        version: v1
+    spec:
+      containers:
+      - name: persistencia
+        image: krikowski99/persistencia-service:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          valueFrom:
+            configMapKeyRef:
+              name: persistencia-configmap  
+              key: ASPNETCORE_ENVIRONMENT
+        - name: ConnectionStrings__DefaultConnection
+          valueFrom:
+            configMapKeyRef:
+              name: persistencia-configmap  
+              key: DefaultConnection
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"

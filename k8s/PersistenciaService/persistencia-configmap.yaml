@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: persistencia-configmap
+data:
+  ASPNETCORE_ENVIRONMENT: "Development"
+  DefaultConnection: "Server=mssql-service;Database=CRUD_FIAP;User Id=sa;Password=Rosavermelha@01;TrustServerCertificate=True;"

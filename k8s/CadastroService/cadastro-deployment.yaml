@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cadastro-deployment
+  labels:
+    app: cadastro
+    tier: backend
+    version: v1
+  annotations:
+    maintainer: "debora.krikowski@fiap.com.br"
+    description: "Deployment do serviço de Cadastro que registra usuários e envia dados para o serviço de Persistência"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cadastro
+  template:
+    metadata:
+      labels:
+        app: cadastro
+        tier: backend
+        version: v1
+    spec:
+      containers:
+      - name: cadastro
+        image: krikowski99/cadastro-service:tag-nova
+        ports:
+        - containerPort: 8080
+        envFrom:
+        - configMapRef:
+            name: cadastro-config
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: Development
+        - name: PERSISTENCIA_SERVICE_BASEURL
+          value: "http://persistencia-service"
