@@ -8,5 +8,5 @@ spec:
     app: persistencia
   ports:
     - port: 80           # porta interna do service
-      targetPort: 8080   # porta que o container está ouvindo (confirma isso)
+      targetPort: 80   # porta que o container está ouvindo 
       nodePort: 30081    # porta exposta fora do cluster

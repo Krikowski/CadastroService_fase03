@@ -23,9 +23,15 @@ spec:
     spec:
       containers:
       - name: cadastro
-        image: krikowski99/cadastro-service:tag-nova
+        image: cadastro-service:v2
+        imagePullPolicy: Never 
         ports:
-        - containerPort: 8080
+        - name: http
+          containerPort: 8080
+          protocol: TCP
+        - name: metrics
+          containerPort: 9090
+          protocol: TCP
         envFrom:
         - configMapRef:
             name: cadastro-config
@@ -34,3 +40,10 @@ spec:
           value: Development
         - name: PERSISTENCIA_SERVICE_BASEURL
           value: "http://persistencia-service"
+        # Variáveis para RabbitMQ
+        - name: RABBITMQ_HOST
+          value: "rabbitmq"
+        - name: RABBITMQ_USERNAME
+          value: "guest"
+        - name: RABBITMQ_PASSWORD
+          value: "guest"

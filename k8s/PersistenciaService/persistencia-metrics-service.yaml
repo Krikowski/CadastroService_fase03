@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: persistencia-metrics-service
+spec:
+  selector:
+    app: persistencia
+  ports:
+    - protocol: TCP
+      port: 9100           # Porta do Service para o cluster
+      targetPort: 9090     # Porta do container que expõe métricas
+  type: ClusterIP

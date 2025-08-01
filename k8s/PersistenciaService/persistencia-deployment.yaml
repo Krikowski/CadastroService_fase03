@@ -25,7 +25,8 @@ spec:
       - name: persistencia
         image: krikowski99/persistencia-service:latest
         ports:
-        - containerPort: 8080
+        - name: http
+          containerPort: 80  
         env:
         - name: ASPNETCORE_ENVIRONMENT
           valueFrom:
@@ -37,6 +38,9 @@ spec:
             configMapKeyRef:
               name: persistencia-configmap  
               key: DefaultConnection
+        # Variável para RabbitMQ 
+        - name: RABBITMQ_HOST
+          value: "rabbitmq"
         resources:
           limits:
             memory: "512Mi"

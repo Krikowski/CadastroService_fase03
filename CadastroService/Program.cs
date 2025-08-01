@@ -1,27 +1,31 @@
-
+ï»¿using CadastroService.RabbitMQ;
 using CadastroService.Services;
+using Prometheus;
 
 namespace CadastroService {
     public class Program {
-        public static void Main(string[] args) {
+        public static async Task Main(string[] args) {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Registrar o HttpClient Factory para conseguir injetar IHttpClientFactory
-            builder.Services.AddHttpClient();
+            builder.WebHost.ConfigureKestrel(options => {
+                options.ListenAnyIP(8080);
+            });
 
-            // Registrar o client personalizado
+            // ConfiguraÃ§Ã£o dos serviÃ§os - tudo antes do Build()
+            builder.Services.AddHttpClient();
             builder.Services.AddHttpClient("PersistenciaService", client => {
                 var persistenciaBaseUrl = builder.Configuration["PERSISTENCIA_SERVICE_BASEURL"];
                 if (string.IsNullOrEmpty(persistenciaBaseUrl)) {
-                    throw new Exception("Variável de ambiente PERSISTENCIA_SERVICE_BASEURL não configurada.");
+                    throw new Exception("VariÃ¡vel de ambiente PERSISTENCIA_SERVICE_BASEURL nÃ£o configurada.");
                 }
                 client.BaseAddress = new Uri(persistenciaBaseUrl);
             });
 
-            // Registrar interface e implementação para injeção de dependência
             builder.Services.AddTransient<IPersistenciaServiceClient, PersistenciaServiceClient>();
 
-            // Outros serviços
+            // Aqui deve estar ativado para que o RabbitMQ funcione corretamente
+            builder.Services.AddSingleton<RabbitMQPublisherService>();
+
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -33,11 +37,17 @@ namespace CadastroService {
                 app.UseSwaggerUI();
             }
 
+            app.UseRouting();
             app.UseAuthorization();
 
-            app.MapControllers();
+            app.UseMetricServer();
 
-            app.Run();
+            app.UseEndpoints(endpoints => {
+                endpoints.MapControllers();
+                endpoints.MapMetrics();
+            });
+
+            await app.RunAsync();
         }
     }
 }

@@ -172,3 +172,6 @@ C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.pdb
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\CadastroService.genruntimeconfig.cache
 C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\obj\Debug\net8.0\ref\CadastroService.dll
+C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\bin\Debug\net8.0\Prometheus.NetStandard.dll
+C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\bin\Debug\net8.0\Prometheus.AspNetCore.dll
+C:\Users\debor\FIAP\FASE_03\CadastroService_fase03\CadastroService\bin\Debug\net8.0\RabbitMQ.Client.dll

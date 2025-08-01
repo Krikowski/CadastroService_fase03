@@ -2,6 +2,8 @@
 using CadastroService.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using CadastroService.RabbitMQ;
+
 
 namespace CadastroService.Controllers {
     [ApiController]
@@ -9,8 +11,11 @@ namespace CadastroService.Controllers {
     public class CadastroController : ControllerBase {
         private readonly IPersistenciaServiceClient _persistenciaClient;
 
-        public CadastroController(IPersistenciaServiceClient persistenciaClient) {
+        private readonly RabbitMQPublisherService _publisher;
+
+        public CadastroController(IPersistenciaServiceClient persistenciaClient, RabbitMQPublisherService publisher) {
             _persistenciaClient = persistenciaClient;
+            _publisher = publisher;
         }
 
         // CREATE
@@ -20,6 +25,7 @@ namespace CadastroService.Controllers {
             if (!sucesso)
                 return StatusCode(500, "Erro ao criar o contato.");
 
+            _publisher.PublishContato(contato);
             return Created("", contato);
         }
 
