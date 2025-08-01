@@ -7,6 +7,5 @@ spec:
     app: persistencia
   ports:
     - protocol: TCP
-      port: 9100           # Porta do Service para o cluster
-      targetPort: 9090     # Porta do container que expõe métricas
-  type: ClusterIP
+      port: 9090       # porta do serviço que o cluster vai usar
+      targetPort: 9090 # porta no pod que está ouvindo

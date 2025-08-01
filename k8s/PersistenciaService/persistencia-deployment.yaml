@@ -20,13 +20,19 @@ spec:
         app: persistencia
         tier: backend
         version: v1
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/path: "/metrics"
+        prometheus.io/port: "9100"
     spec:
       containers:
       - name: persistencia
         image: krikowski99/persistencia-service:latest
         ports:
         - name: http
-          containerPort: 80  
+          containerPort: 80
+        - name: metrics
+          containerPort: 9100
         env:
         - name: ASPNETCORE_ENVIRONMENT
           valueFrom:
@@ -38,7 +44,6 @@ spec:
             configMapKeyRef:
               name: persistencia-configmap  
               key: DefaultConnection
-        # Variável para RabbitMQ 
         - name: RABBITMQ_HOST
           value: "rabbitmq"
         resources:

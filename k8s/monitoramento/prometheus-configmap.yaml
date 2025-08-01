@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: prometheus-config
   labels:
-    name: prometheus-config
+    app: prometheus
 data:
   prometheus.yml: |
     global:
@@ -16,4 +16,4 @@ data:
 
       - job_name: 'persistencia_service'
         static_configs:
-          - targets: ['persistencia-metrics-service:9100']
+          - targets: ['persistencia-metrics-service:9090']

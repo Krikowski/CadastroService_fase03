@@ -4,8 +4,8 @@ global:
 scrape_configs:
   - job_name: 'cadastro'
     static_configs:
-      - targets: ['cadastro-metrics-service:8080']  
+      - targets: ['cadastro-metrics-service.default.svc.cluster.local:8080']
 
   - job_name: 'persistencia_service'
     static_configs:
-      - targets: ['persistencia-metrics-service:9100']
+      - targets: ['persistencia-metrics-service.default.svc.cluster.local:9090']
