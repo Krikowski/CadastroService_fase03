@@ -8,6 +8,6 @@ spec:
     app: cadastro
   ports:
     - protocol: TCP
-      port: 80          # porta do Service (para acesso interno no cluster)
-      targetPort: 8080  # porta do container
-      nodePort: 30080   # mesma porta que você usava antes
+      port: 80          
+      targetPort: 8080  
+      nodePort: 30080   
